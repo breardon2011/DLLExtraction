@@ -1,0 +1,11 @@
+# Ignore everything in input directory
+input/*
+# But don't ignore example.txt
+!input/example.txt
+
+# Ignore everything in output directory
+output/*
+# But don't ignore example.c
+!output/example.c
+.env
+env/
